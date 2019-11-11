@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cirrus Labs</title>
-
-    <!-- Redirect to Cirrus CI until we have a proper site -->
-    <meta http-equiv="refresh" content="0; url=https://cirrus-ci.org">
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -34,18 +29,28 @@
         </li>
       </ul>
     </nav>
-    <div class="container-fluid h-100">
-      <div class="row h-100">
-        <div class="col-sm-5"></div>
-        <div class="col-sm-2 d-flex align-items-center">
-          <h1>Cirrus Labs</h1>
-          <img src="cirrus-logo.svg" class="w-100" />
-        </div>
-        <div class="col-sm-5"></div>
-      </div>  
+    <div id="container">
+      <img src="cirrus-logo.svg" />
+      <h1>Cirrus Labs</h1>
+      <h2>Products</h2>
+      <ul class="body-text">
+        <li>
+          <a href="https://cirrus-ci.org">Cirrus CI</a>
+          <abbr><b>~</b> Cirrus Labs' flagship product, a modern, cloud native approach to continuous integration</abbr>
+        </li>
+        <li>
+          <a href="https://github.com/cirrus-actions">Cirrus Actions</a>
+          <abbr><b>~</b> A series of GitHub actions developed and maintained by Cirrus Labs to enhance your workflows</abbr>
+        </li>
+        <li>
+          <a href="https://cirrus-emulators.com">Cirrus Emulators</a>
+          <abbr><b>~</b> Run Android emulators in your existing CI provider, with minimal configuration needed</abbr>
+        </li>
+      </ul>
     </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </div>
+    <div class="col-sm-5"></div>
+    </div>
+    </div>
   </body>
 </html>

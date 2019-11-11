@@ -1,9 +1,39 @@
-html, body {
+html, body
+{
     height: 100%;
 	background-color: #212121;
 	text-align: center;
 }
 
-.cirrus-white, h1 {
+.cirrus-white, h1, h2, .body-text
+{
 	color: #FAFAFA;
+}
+
+.fab
+{
+	line-break: nowrap;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: underline;
+}
+
+h1
+{
+	margin-bottom: 5%;
+}
+
+h2
+{
+	margin-bottom: 1%;
+}
+
+.page-spacer
+{
+	width: 0px;
+	height: 60px;
+	display: hidden;
 }
